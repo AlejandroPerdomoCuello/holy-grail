@@ -3,10 +3,7 @@ header {
     width: 100%;
     float: left;
     margin: auto;
-    position: fixed;
     background-color: yellow;
-    color: black;
-    font-size: 3vw;
 }
 
 nav {
@@ -45,14 +42,20 @@ footer {
 
 body {
     background-color: blue;
+    width: 100%;
+}
+
+h1 {
+    color: black;
+    font-size: 8vw;
 }
 
 a {
     color: cornsilk;
-    font-size: 1vw;
+    font-size: 3vw;
 }
 
 p {
     color: cornsilk;
-    font-size: 1vw;
+    font-size: 3vw;
 }
