@@ -4,6 +4,7 @@ header {
     float: left;
     margin: auto;
     background-color: yellow;
+    text-align: center;
 }
 
 nav {

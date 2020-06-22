@@ -1,24 +1,37 @@
 
+header {
+    text-align: center;
 
+}
 
+.middle {
+    justify-content: space-evenly;
+}
+
+footer {
+    background-color: red;
+    text-align: center;
+}
 
 h1 {
     color: black;
-    font-size: 8vw;
+    background-color: yellow;
+    /*font-size:*/
 }
 
 a {
     color: cornsilk;
-    font-size: 3vw;
+    /*font-size: */
 }
 
 p {
     color: cornsilk;
-    font-size: 3vw;
+    /*font-size: */
 }
 
 body {
     background-color: blue;
+    display: flex;
 }
 
 
