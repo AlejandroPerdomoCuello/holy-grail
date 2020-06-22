@@ -1,26 +1,36 @@
 
 
+header {
+    background-color: yellow;
+    text-align: center;
+}
 
+footer {
+    background-color: red;
+    text-align: center;
+}
 
 h1 {
     color: black;
-    font-size: 8vw;
 }
 
 a {
     color: cornsilk;
-    font-size: 3vw;
 }
 
 p {
     color: cornsilk;
-    font-size: 3vw;
 }
 
 body {
     background-color: blue;
 }
 
+img {
+    /*width: fit-content;*/
+    max-width: 80%;
+    /*height: fit-content;*/
+    max-height: 80%;
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 780px) {
   /* for smaller screens*/
