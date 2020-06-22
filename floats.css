@@ -1,0 +1,58 @@
+
+header {
+    width: 100%;
+    float: left;
+    margin: auto;
+    position: fixed;
+    background-color: yellow;
+    color: black;
+    font-size: 3vw;
+}
+
+nav {
+    width: 33.33%;
+    float: left;
+    margin: auto;
+    background-color: blue;
+    font-size: 1vw;
+}
+
+main {
+    width: 33.33%;
+    float: left;
+    margin: auto;
+    background-color: blue;
+    font-size: 1vw;
+}
+
+aside {
+    width: 33.33%;
+    float: left;
+    margin: auto;
+    background-color: blue;
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: red;
+    color: white;
+    text-align: center;
+    font-size: 5vw;
+}
+
+body {
+    background-color: blue;
+}
+
+a {
+    color: cornsilk;
+    font-size: 1vw;
+}
+
+p {
+    color: cornsilk;
+    font-size: 1vw;
+}
