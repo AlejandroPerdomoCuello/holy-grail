@@ -1,11 +1,12 @@
 
 header {
     text-align: center;
-
 }
 
-.middle {
-    justify-content: space-evenly;
+.flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
 }
 
 footer {
@@ -16,24 +17,32 @@ footer {
 h1 {
     color: black;
     background-color: yellow;
-    /*font-size:*/
 }
 
 a {
     color: cornsilk;
-    /*font-size: */
 }
 
 p {
     color: cornsilk;
-    /*font-size: */
 }
 
 body {
     background-color: blue;
-    display: flex;
 }
 
+img {
+    width: fit-content;
+    max-width: 80%;
+    height: fit-content;
+    max-height: 80%;
+}
 
 @media only screen and (max-width: 480px) {
   /* for smaller screens*/
+
+  .flex {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
