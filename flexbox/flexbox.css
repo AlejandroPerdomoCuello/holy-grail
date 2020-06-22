@@ -7,6 +7,7 @@ header {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    margin: auto;
 }
 
 footer {
@@ -32,17 +33,18 @@ body {
 }
 
 img {
-    width: fit-content;
+    /*width: fit-content;*/
     max-width: 80%;
-    height: fit-content;
+    /*height: fit-content;*/
     max-height: 80%;
 }
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 780px) {
   /* for smaller screens*/
 
   .flex {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+    margin: auto;
   }
