@@ -23,6 +23,7 @@ p {
 }
 
 body {
+    display: grid;
     background-color: blue;
 }
 
