@@ -49,6 +49,11 @@ body {
     background-color: blue;
 }
 
+img {
+    /*width: fit-content;*/
+    max-width: 80%;
+    /*height: fit-content;*/
+    max-height: 80%;
 
 @media only screen and (max-width: 780px) {
   /* for smaller screens*/
