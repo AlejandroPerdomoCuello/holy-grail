@@ -4,6 +4,12 @@ body {
     background-color: black;
 }
 
+h1 {
+    color: aquamarine;
+    background-color: brown;
+    font-size: 500%;
+}
+
 a {
     font-size: 500%;
     margin-top: 1em;
