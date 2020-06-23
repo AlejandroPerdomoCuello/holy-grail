@@ -16,6 +16,6 @@ By the end of this challenge you will:
 - use **CSS grind** to place block-elements besides each other.
 - create a responsive layout using **CSS only**, and respecting a semantic HTML structure.
 
-##Finished Product
+## Finished Product
 
 https://alejandroperdomocuello.github.io/holy-grail/
