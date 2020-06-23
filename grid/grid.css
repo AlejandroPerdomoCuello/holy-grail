@@ -1,13 +1,43 @@
 
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 0.5fr 1.5fr 0.2fr;
+    grid-template-areas:
+                        "header header header"
+                        "nav main aside"
+                        "footer footer footer";
+    grid-gap: 0.2rem;
+}
 
 header {
     background-color: yellow;
     text-align: center;
+    grid-area: header;
+}
+
+nav {
+    text-align: center;
+    background-color: blue;
+    grid-area: nav;
+}
+
+main {
+    text-align: center;
+    background-color: blue;
+    grid-area: main;
+}
+
+aside {
+    text-align: center;
+    background-color: blue;
+    grid-area: aside;
 }
 
 footer {
     background-color: red;
     text-align: center;
+    grid-area: footer;
 }
 
 h1 {
@@ -23,8 +53,7 @@ p {
 }
 
 body {
-    display: grid;
-    background-color: blue;
+    /*background-color: blue;*/
 }
 
 img {
@@ -32,6 +61,23 @@ img {
     max-width: 80%;
     /*height: fit-content;*/
     max-height: 80%;
+}
+
 
 @media only screen and (max-width: 780px) {
-  /* for smaller screens*/
+/* for smaller screens*/
+
+    .grid {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto auto auto;
+        grid-template-areas:
+                            "header"
+                            "nav"
+                            "main"
+                            "aside"
+                            "footer";
+        grid-gap: 0.2rem;
+    }
+
+}
