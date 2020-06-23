@@ -18,4 +18,4 @@ By the end of this challenge you will:
 
 ## Finished Product
 
-https://alejandroperdomocuello.github.io/holy-grail/
+https://dazzling-mahavira-11daca.netlify.app/
