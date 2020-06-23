@@ -54,10 +54,12 @@ img {
     max-width: 80%;
     /*height: fit-content;*/
     max-height: 80%;
+}
 
 @media only screen and (max-width: 780px) {
   /* for smaller screens*/
-  nav {
+
+nav {
     width: 100%;
     float: left;
     margin: auto;
