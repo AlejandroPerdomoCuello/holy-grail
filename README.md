@@ -18,4 +18,4 @@ By the end of this challenge you will:
 
 ## Finished Product
 
-https://dazzling-mahavira-11daca.netlify.app/
+[Click here to see the final result](https://dazzling-mahavira-11daca.netlify.app/)
